@@ -1,0 +1,79 @@
+
+.services{
+    width: 70%;
+    background-color: #f4f4f4;
+    color: #232020;
+    margin: 0 auto;
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8vw;
+    line-height: 1.5;
+    text-align: center;
+}
+.icon_services{
+    width: 10%;       
+}
+
+a:link, a:visited {
+    color: #ff7315 ;
+}
+a:hover, a:active {
+    color: #f4f4f4;
+    background-color: #3a3535 ;
+}
+
+.entete_services{
+    text-align: center;
+    font-size: 1vw;
+}
+#our{
+    color: #ff7315;
+    font-size: 1vw;
+    font-style: italic;
+}
+.container_services{
+    width: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;       
+}
+.mainaside_services{
+    display: block;
+    width: 30%;         
+}
+.mainaside_services header{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #3a3535; 
+    margin-top: 2%;  
+}
+.mainaside_services article{
+    display: inline-block;
+    text-align: justify;
+    width: 80%;
+    height: 50%;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.mainaside_services footer{
+    display: block;
+    text-align: center;
+    margin-top: -20px;
+
+
+}
+
+@media screen and (max-width: 750px){
+    .container_services{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainaside_services{
+        width: 50%; 
+    }
+
+}
+    
