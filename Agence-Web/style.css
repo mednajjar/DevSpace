@@ -1,8 +1,14 @@
 
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.samir{
       background-color: #f4f4f4;
       width: 70%;
-      margin: 10px auto;
+      margin-left: 15%;
+      margin-right: 15%;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 16px;
 
@@ -22,6 +28,7 @@ body{
 .rect2{
     display: block;
     width: 50%;
+    padding: 3%;
     
    
 }
@@ -50,7 +57,9 @@ button{
         color: white;
         padding: 2% 15%;
         text-align: center;
+        align-items: center;
         font-size: 1vw;
+        
 }
     
 .work{
@@ -67,6 +76,7 @@ button{
   }
 .entete{
     text-align: center;
+    padding-top: 3%;
 
 }
 .entete span{
@@ -92,4 +102,9 @@ button{
         align-items: center;
     }
   }
-   
+.btn a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    
+}
