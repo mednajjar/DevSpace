@@ -1,0 +1,86 @@
+
+/**all section of pricing**/
+.section_pricing{
+    font-family: Verdana, Tahoma, sans-serif;
+    background: #fff;
+    color: black;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 40px;
+}
+/**IMG responsive**/
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    font-size: 2rem;
+    text-align: center; 
+    color: #FF7315;
+    margin-top: 30px ;
+}
+h3{
+    font-size: 1,5rem;
+    color: #FF7315;
+}
+p{
+    font-size: 1,5rem;
+    text-align: center;
+}
+
+.money{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container_pricing{
+                text-align: center;
+               display: flex;
+               flex-direction: row;
+               flex-wrap: wrap;
+               justify-content: space-around;
+               
+}
+
+.container_pricing_items:hover{
+    background-color: rgb(187, 187, 199);
+    width: 170px;
+    height: 220px;
+}
+.container_pricing_items{
+    width: 150px;
+    height: 200px;
+    border: 1px solid #707070;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+.container_pricing_items1{
+}
+.container_pricing_items2{
+    height: 200px;
+}
+.container_pricing_items3{
+}
+
+/**INPUT button get**/
+
+input:active{
+    background-color: blue;
+    border: 1px solid blue;
+    
+}
+
+.button_pricing{
+    width: 60px;
+    height: 30px;
+    background-color: #FF7315;
+    color: white;
+    border: 1px solid #FF7315;
+    border-radius: 15px;
+}
