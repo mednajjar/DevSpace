@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -95,3 +96,115 @@
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
   }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.samir{
+      background-color: #f4f4f4;
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 16px;
+
+  }
+
+
+.rect1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+   
+}
+
+.rect2{
+    display: block;
+    width: 50%;
+    padding: 3%;
+    
+   
+}
+.rect2 p{
+    padding-right:10%;
+    text-align: justify;
+}
+
+.rect2 span{
+        color: #ff7315;
+        font-style: italic;
+}
+.rect2 h1{
+    text-align: center;
+
+}
+
+
+
+button{
+        margin-left: 25%;
+        margin-top: 7%;
+        background-color:royalblue;
+        border-radius: 10px;
+        height: 15%;
+        color: white;
+        padding: 2% 15%;
+        text-align: center;
+        align-items: center;
+        font-size: 1vw;
+        
+}
+    
+.work{
+    background-color: #fff;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 2%;
+    flex-wrap: wrap;
+      
+  }
+.workimag{
+     
+  }
+.entete{
+    text-align: center;
+    padding-top: 3%;
+
+}
+.entete span{
+        color: #ff7315;
+        font-style: italic;
+
+}
+
+.image{ 
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
+      
+}
+.rect2 iframe{
+    display: inline-block;
+    width: 50%;
+    align-items: flex-end;
+  }
+  @media screen and (max-width:750px){
+    .rect2{
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+.btn a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    
+}
+
