@@ -1,0 +1,17 @@
+ <div class="lg">
+                    <img class="logo" src="img/logo.png.png" alt="logo site web">
+            
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">ontactez-nous</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Team</a></li>
+                    </ul>
+                    
+                </div>
+                      <img claass="img1"src="img/Cover-design.png" alt="img bckkground">
+                    <div class="txtHero">
+                        <p class="titre">On vous rappelle sous 24 H </br> Digitalisation en main </br>24/24</p>
+                        <button class="btn2"><a href="#">Subscribe</a></button>
+                    </div>
