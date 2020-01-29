@@ -326,7 +326,9 @@ a:active {
 }
  .imgroup{
     padding-top: 10%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
         
  }
  .equipe{
@@ -350,7 +352,7 @@ a:active {
  .mysection{
     padding-bottom: 15%;
  }
- .image{
+ .image2{
     width: 40%;
     height: auto;
     margin-top: 30px;
