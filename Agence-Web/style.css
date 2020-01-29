@@ -338,46 +338,6 @@ a:active {
     transform: rotate(360deg);
 }
 
-@media only screen and (max-width: 600px) {
-    .imgroup {
-        padding-top: 10%;
-        display: block;
-
-    }
-
-    .equipe {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 16px;
-        width: 70%;
-        margin-right: 15%;
-        margin-left: 15%;
-    }
-
-    .images {
-        width: 40%;
-        height: auto;
-        padding-bottom: 3%;
-        padding-top: 30px;
-        transition: width 2s;
-        transition-timing-function: ease;
-    }
-
-    .images:hover {
-        width: 90%;
-    }
-
-    .mysection {
-        padding-bottom: 15%;
-    }
-
-    .image {
-        width: 40%;
-        height: auto;
-        margin-top: 30px;
-        padding-bottom: 3%;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-}
         .imgroup{
             padding-top: 10%;
             display: block;
