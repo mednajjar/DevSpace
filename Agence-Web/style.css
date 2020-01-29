@@ -255,19 +255,6 @@ a:active {
     margin-top: 10%;
 }
 
-@media screen and (max-width: 750px){
-    .container_services{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .mainaside_services {
-        width: 50%;
-    }
-
-}
-
-
 
 .equipe {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -337,41 +324,39 @@ a:active {
 .image1:hover {
     transform: rotate(360deg);
 }
-
-        .imgroup{
-            padding-top: 10%;
-            display: block;
+ .imgroup{
+    padding-top: 10%;
+    display: block;
         
-        }
-        .equipe{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 16px;
-            width: 70%;
-            margin-right: 15%;
-            margin-left: 15%;     
-        }
-        .images{
-            width: 40%;
-            height: auto;
-            padding-bottom: 3%;
-            padding-top: 30px;
-            transition: width 2s;
-            transition-timing-function: ease;    
-        }
-        .images:hover{
-            width: 90%;
-        }
-        .mysection{
-            padding-bottom: 15%;
-        }
-        .image{
-            width: 40%;
-            height: auto;
-            margin-top: 30px;
-            padding-bottom: 3%;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        }
-  }
+ }
+ .equipe{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;     
+ }
+ .images{
+   width: 40%;
+   height: auto;
+   padding-bottom: 3%;
+   padding-top: 30px;
+   transition: width 2s;
+   transition-timing-function: ease;    
+ }
+ .images:hover{
+   idth: 90%;
+ }
+ .mysection{
+    padding-bottom: 15%;
+ }
+ .image{
+    width: 40%;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
 
 .samir{
       background-color: #f4f4f4;
@@ -380,7 +365,7 @@ a:active {
       margin-right: 15%;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       font-size: 16px;
-
+}
 
 
 .samir {
@@ -400,16 +385,12 @@ a:active {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-
-
 }
 
 .rect2 {
     display: block;
     width: 50%;
     padding: 3%;
-
-
 }
 
 .rect2 p {
@@ -478,13 +459,6 @@ button {
     display: inline-block;
     width: 50%;
     align-items: flex-end;
-}
-
-@media screen and (max-width:750px) {
-    .rect2 {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 .btn a {
@@ -716,19 +690,6 @@ a {
     width: 100%;
 }
 
-/*flrx*/
-@media screen and (max-width:750px) {
-
-
-    .logo {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #contact {
-        display: block;
-
-    }
 
     .sectionfooter1 {
         order: 1;
