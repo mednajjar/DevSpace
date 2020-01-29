@@ -172,15 +172,15 @@ input:active {
     background-color: #f4f4f4;
     color: #232020;
     margin: 0 auto;
-    padding: 2%;
+    padding: 1%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .8vw;
     line-height: 1.5;
     text-align: center;
 }
 
-.icon_services {
-    width: 10%;
+.icon_services{
+    width: 12%;       
+
 }
 
 a:link,
@@ -194,20 +194,22 @@ a:active {
     background-color: #3a3535;
 }
 
-.entete_services {
+.entete_services h1{
+
     text-align: center;
-    font-size: 1vw;
+    font-size: 2vw;
+    color: #3a3535;
 }
 
 #our {
     color: #ff7315;
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-style: italic;
 }
 
 .container_services {
     width: auto;
-    margin-top: 5%;
+    margin-top: 4%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -223,28 +225,38 @@ a:active {
     display: block;
     text-align: center;
     border-bottom: 1px solid #3a3535;
-    margin-top: 2%;
+    margin-top: 2%;   
+}
+.mainaside_services header h1{
+    font-size: 1vw;
+    color: #3a3535;
 }
 
 .mainaside_services article {
     display: inline-block;
-    text-align: justify;
     width: 80%;
     height: 50%;
-    margin-top: 5%;
+    margin-top: 3%;
     padding: 5%;
 }
-
+.mainaside_services p{
+    text-align: justify;
+    font-size: .8vw;
+}
 .mainaside_services footer {
     display: block;
     text-align: center;
     margin-top: -20px;
-
-
 }
 
-@media screen and (max-width: 750px) {
-    .container_services {
+
+.mainaside_services footer{
+    display: inline-block;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 750px){
+    .container_services{
         flex-direction: column;
         align-items: center;
     }
@@ -366,6 +378,48 @@ a:active {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
+        .imgroup{
+            padding-top: 10%;
+            display: block;
+        
+        }
+        .equipe{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            width: 70%;
+            margin-right: 15%;
+            margin-left: 15%;     
+        }
+        .images{
+            width: 40%;
+            height: auto;
+            padding-bottom: 3%;
+            padding-top: 30px;
+            transition: width 2s;
+            transition-timing-function: ease;    
+        }
+        .images:hover{
+            width: 90%;
+        }
+        .mysection{
+            padding-bottom: 15%;
+        }
+        .image{
+            width: 40%;
+            height: auto;
+            margin-top: 30px;
+            padding-bottom: 3%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+  }
+
+.samir{
+      background-color: #f4f4f4;
+      width: 70%;
+      margin-left: 15%;
+      margin-right: 15%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 16px;
 
 
 
