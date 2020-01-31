@@ -1,0 +1,122 @@
+
+html {
+    /* width: 1440px; */
+    /* margin: auto; 
+    margin-top: 40px; */
+}
+
+
+body {
+    
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    box-sizing: border-box;
+    
+}
+
+section{
+   
+}
+
+
+.head h1 {
+    color:hsl(179, 62%, 43%);
+}
+.head h2 {
+    color: hsl(71, 73%, 54%);
+}
+.head p {
+    color: hsl(218, 22%, 67%);
+}
+.block1 {
+    background-color:hsl(179, 62%, 43%) ;
+}
+.block2{
+    background-color:hsl(179, 53%, 60%) ;
+}
+.block2 h3 {
+    color: white;
+}
+.block2 p {
+    color:hsl(218, 22%, 67%) ;
+    padding-top: 30px;
+}
+.block1,.block2 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.block1 p  {
+    color: hsl(218, 22%, 67%);
+}
+.titre1 {
+    font-size: 35px;
+    color: white;
+}
+.titre2 {
+    font-size: small;
+    color: white;
+}
+.button {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: hsl(71, 73%, 54%) ;
+    border-radius: 10px;
+    color: white;
+    border: none;
+
+}
+
+
+
+.griid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 500px;
+}
+
+.head{
+    grid-column-start: 1;
+    grid-column-end:3;
+}
+.block1{
+    grid-area: 2/1;
+}
+
+.block2{
+    grid-area: 2/2;
+}
+
+
+@media only screen and (max-width: 750px){
+    .griid{
+       width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:  1fr;
+        grid-template-areas:  "herd"
+                              "block1"
+                              "block2";
+        margin-left: -10%; 
+   
+        
+      
+    }
+
+    .head{
+        width: 120%;
+        
+        grid-area: 1/1;
+    }
+    .block1{
+        width: 120%;
+        grid-area: 2/1;
+    }
+    .block2{
+        width: 120%;
+        grid-area: 3/1;
+    }
+}
