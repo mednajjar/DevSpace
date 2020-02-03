@@ -1,0 +1,138 @@
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+header{
+    text-align: center;
+}
+.containre{
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: 28% 28% 34%;
+        grid-template-rows: 50% 50%;  
+        margin-left: 13%;
+        grid-gap: 35px;
+
+
+    
+
+}
+
+.section_1{
+   
+    box-sizing: border-box ;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    box-shadow:5px 10px 40px hsl(229, 6%, 66%);
+    width: 400px;
+    height: 250px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5% ;
+   
+    
+}
+.section_22{
+
+
+}
+svg{
+    
+    float:right;
+    
+    
+}
+.premierblock{
+   
+    margin-top: -25%;
+    box-sizing: border-box ;
+    border-top: 5px solid  hsl(0, 78%, 62%);
+    box-shadow: 5px 10px 40px hsl(229, 6%, 66%);
+    width: 400px;
+    height: 250px;
+    margin-bottom: 5%;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5% ;
+}
+.deuxiemeblock{
+ 
+    box-sizing: border-box ;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    box-shadow: 5px 10px 40px hsl(229, 6%, 66%);
+    width: 400px;
+    height: 250px;
+    margin-top: 5%;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5% ;
+}
+.section_4{
+    
+    box-sizing: border-box ;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    box-shadow: 5px 10px 40px hsl(229, 6%, 66%);
+    width: 400px;
+    height: 250px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5% ;
+}
+@media (min-width: 640px) and (max-width: 1024px) {
+   
+
+    .containre {
+        margin-right: 5%;
+        margin-left: 7%;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;  
+    } 
+    .section_1{
+        grid-column: 1;
+        grid-row: 1;
+        
+    }
+    .section_22{
+        margin-top: 25%;
+            grid-column: 2;
+            display: grid;
+            grid-template-rows: 1fr 1fr; 
+          
+    }
+    .premierblock{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .deuxiemeblock{
+        margin-top: -1%;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    
+    .section_4{
+        margin-top: -71%;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+  }
+@media (max-width: 640px) {
+   
+    header{
+        margin-left: 10%;
+    }
+    .containre {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-right: 10%;
+      margin-left:0%;
+
+    }
+    .section_1{
+        margin-bottom: 30%;
+    }
+    .deuxiemeblock{
+        margin-bottom: 5%;
+    }
+
+  }
