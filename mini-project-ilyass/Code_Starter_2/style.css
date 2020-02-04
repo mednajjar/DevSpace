@@ -1,0 +1,114 @@
+body{
+ margin: 0;
+ padding: 0;
+ font-family: 'karla';
+ background-color:white;
+}
+.ALL{
+    width: 700px;
+    height: 450px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.6fr 1.9fr;
+    grid-template-areas: "part1  part1"
+        "part2  part3";
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+        0 6px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.title{
+    grid-area: part1;
+    padding-left: 9%;
+    background-color: white;
+    justify-content: space-evenly;
+}
+.title h1{
+    color: hsl(179, 62%, 43%) ;
+    font-size: 30px;      
+}
+.title h2{
+    color: hsl(71, 73%, 54%);
+    font-size: 20px;
+}
+.title p{
+    color: grey;
+    font-size: 14px;
+}
+.collumn1{
+    line-height: 150%;
+    font-size: 75%;
+    padding-left: 30px ;
+    color: white;
+    background-color: hsl(179, 62%, 40%);
+}
+.titre2{
+    font-size: 24px
+}
+.titr1{
+    font-size: 16px;
+    opacity: .5;
+    padding-left: 5%;
+}
+.collumn2{
+    font-size:80%;
+    padding-left: 30px;
+    background-color: ;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    line-height: 150%;
+}
+button{
+    padding: 2% 10% ;
+    border-radius: 9%;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    transition:   all .6s  ease-in-out;
+
+    
+}
+button:hover{
+    background-color: hsl(71, 88%, 41%);   
+}
+@media screen and (max-width:500px)  {
+    .ALL {
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "part1"
+            "part2"
+            "part3"
+    }
+
+    .title{
+        grid-area: part1;
+        padding-left:10% ;
+        font-size: 16px;
+    }
+
+    .collumn1 {
+        grid-area: part2;
+        padding-left:10% ;
+        font-size: 16px;
+    }
+
+    .collumn2{
+        grid-area: part3;
+        padding-left:10% ;
+        font-size: 16px;
+    }
+    .title{
+        max-width: 100%;
+    }
+    .title p{
+            font-size:20px;
+        }
+.collumn1 button{
+padding-left: 100px;
+padding-top: 5px;
+text-align: right;
+box-sizing: 3%;
+border-radius: 0%;   
+}
