@@ -1,0 +1,130 @@
+
+#container{
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px 0;
+    text-align: center;
+    background-image: url(images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: white;
+
+}
+ #box3{
+    background-color: white;
+    width: 90%;
+    margin:20px auto;
+    padding-top: 10px ;
+    display: flex;
+    flex-direction: column;   
+    border-radius: 10px;
+    box-shadow: 0 8px 3px rgba(0, 0, 0, 0.253);
+}
+#box3 p{
+    font-size: x-small;
+    font-weight: 100;
+    color: hsla(249, 10%, 26%, 0.568) ;
+    padding: 0 60px;  
+}
+#box1{
+    padding: 40px;
+}
+#box1 p{
+    color: rgba(255, 255, 255, 0.726);
+    font-weight: 300;
+
+}
+#box3 span{color: rgba(255, 0, 0, 0.562); font-weight: bold;}
+
+.input{
+    width: 80%;
+    height: 50px;
+    margin: 10px auto;
+    display: inline-block;
+    padding-left: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.295);
+
+}
+.input:hover, .input:active{
+border-color: black;
+}
+
+
+.input:invalid{
+    border-color: red;
+}
+
+#button2{
+    width: 85%;
+    height: 50px;
+    margin: 10px auto;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    box-shadow: 0 3px 2px hsla(154, 70%, 30%, 0.747);
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    font-variant-caps: all-small-caps;
+
+}
+#button1{
+    width: 90%;
+    height: 70px;
+    padding: 0 50px;
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 6px 3px rgba(0, 0, 0, 0.123);
+
+}
+#button1 span{
+    font-weight: 800;
+
+}
+@media screen and (min-width: 700px){
+  
+   
+    #container{
+        padding: 50px;
+        height: auto;
+        display:grid;
+        grid-template-rows: 1fr 3fr;
+        grid-template-columns: 1fr 1fr;                  
+                              
+        }
+    #box1{
+        padding: 0;
+        margin-left: 80px;
+        align-self: center;
+        font-weight: 100;
+        text-align: left;
+        grid-column: 1/2;
+        grid-row: 1 / span 3 ;
+    }
+    #box1 h1{
+        font-size: 50px;
+    }
+    
+    #box2{
+        width: 90%;
+        margin: 0 30px;
+        align-self: center ;
+        grid-column: 2/3;
+        grid-row: 1/2 ;
+    }
+    #box3{
+        width: 80%;
+        height: 450px;
+        margin-top: -20px;
+        grid-column: 2/3;
+        grid-row: 2/3 ;
+
+    }
+
+}
+
