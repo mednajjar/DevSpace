@@ -1,0 +1,109 @@
+body{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family:'poppins';
+    color: white;
+    width: 80%;
+    margin: 8% 10%;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.headermsg{
+    font-size: 1rem;
+    text-align: center;
+}
+.footermsg{
+    font-size: 50%;
+    text-align: center;
+    margin-bottom: 7%;
+}
+.footerparty{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    background-image: url(images/bg-intro-desktop.png);
+    background-color:hsl(0, 100%, 74%);  
+    padding: 8%;
+    border: none;
+    box-shadow: 10px 10px 60px hsl(0, 3%, 66%);
+}
+.textfooter{
+    grid-column: 1;
+    padding-right: 10%;
+    padding-top: 40%;
+}
+.formfooter{
+    grid-column: 2;
+}
+.tryit{
+    font-weight: bold;
+}
+span{
+    color:red;
+    font-weight: bold;
+}
+
+
+.bluebuttontry{
+    background-color: hsl(248, 32%, 49%);
+    border: 1px solid hsl(248, 32%, 49%);
+    color: white;
+    text-align: center;
+    font-size: 1,5rem;
+    padding: 2%;
+    margin-bottom: 6%;
+    width: 100%;
+    height: 60%;
+    border-radius: 9px;
+    box-shadow: 10px 10px 60px hsl(0, 3%, 66%);
+}
+.formulaire{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+    box-shadow: 7px 7px 40px hsl(0, 3%, 66%);
+}
+.firstname{
+    border: 1px solid black;
+    margin: 9%;
+    color:white;
+    padding: 2%;
+    border-radius: 8px;
+    width: 70%;
+    height:30px;
+}
+ .greenbuttontry{
+    margin: 9%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 8px;
+    width: 70%;
+    height:30px;
+    background-color: hsl(154, 59%, 51%);
+    border: 1px solid hsl(154, 59%, 51%);
+    box-shadow: 10px 10px 60px hsl(0, 3%, 66%);
+}
+input{
+    display:block;
+    border: none;
+    background: none;
+    outline:none;
+}
+@media screen and (max-width: 1000px) {
+    .footerparty{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1fr 1fr;
+        width: 80%;
+    }
+    .textfooter{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .formfooter{
+        grid-column: 1;
+        grid-row: 2;
+    }
+}

@@ -1,0 +1,103 @@
+body{
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin: 8% 15%;
+    font-weight: 400;
+}
+h1{
+    color: hsl(179, 62%, 43%);
+    font-size: 1,8rem;
+    font-weight: 700;
+}
+h2{
+    color: hsl(71, 73%, 54%);
+    font-size: 1,5rem;
+    font-weight: 700;
+}
+h3{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+p, pre{
+    font-size: 0,9rem;
+    color: hsl(226, 35%, 93%);
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    border: 1px solid hsl(71, 73%, 54%);
+    border-radius: 3%;
+    box-shadow: 10px 10px 60px hsl(0, 3%, 66%);
+    color: white;
+    width: 250px;
+    height: 40px;
+    
+}
+.buttonSignUp{
+    display: flex;
+    justify-content: center;
+}
+
+.paragonegrey{
+    color: hsl(218, 22%, 67%);
+    font-size: 1,2rem;
+}
+.allpartymoney{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border: none;
+    border-radius: 2%;
+    box-shadow: 10px 10px 60px hsl(0, 3%, 66%);
+
+}
+.part1_community{
+      grid-column:1 / span 3;
+      grid-row: 1;
+      padding: 4% 8%;
+    }
+.part2_monthly{
+    grid-column:1;
+    grid-row: 2;
+    color: hsl(226, 35%, 93%);
+    background-color: hsl(179, 62%, 43%);
+    padding-bottom: 6%;
+}
+.part2centent{
+    padding: 6% 10%;
+    padding-bottom: 4%;
+}
+.part3_whyus{
+    grid-column:2;
+    grid-row: 2;
+    padding: 8%;
+    padding-right: 0;
+    font-family: karla;
+    color: hsl(226, 35%, 93%);
+    background-color: #4abebd;
+}
+span{
+    color: white;
+    font-size: 2rem;
+}
+@media screen and (max-width: 1000px) {
+    .allpartymoney{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .part1_community{
+          grid-column:1;
+          grid-row: 1;
+        }
+    .part2_monthly{
+        grid-column:1;
+        grid-row: 2;
+    }
+    .part3_whyus{
+        grid-column:1;
+        grid-row: 3;
+    }   
+}
