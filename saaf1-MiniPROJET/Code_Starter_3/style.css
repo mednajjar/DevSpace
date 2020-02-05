@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+
+
+
+.container {
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+
+    margin: 0;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.info h1 {
+    color: white;
+    text-align: left;
+}
+
+.container p {
+    color: hsl(248, 17%, 91%);
+}
+
+.info {
+    text-align: justify;
+    padding-top: 200px;
+    padding-left: 80px;
+}
+
+.info p {
+    padding-top: 50px;
+    text-align: justify;
+}
+
+.block1 {
+    padding: 4rem;
+
+}
+
+.contact {
+    background-color: white;
+
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-radius: 8px;
+
+
+
+}
+
+.contact input {
+
+    padding-top: 25px;
+    width: 100%;
+    margin-bottom: 35px;
+    text-align: left;
+    margin-left: 40px;
+    border-radius: 5px;
+    box-shadow: 12 rgb(202, 195, 195);
+}
+
+#name {
+    width: 80%;
+    padding-left: 20px;
+    border: 1px solid rgb(165, 154, 154);
+}
+
+#bot1 {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+
+}
+
+#bot2 {
+    width: 85%;
+    background-color: hsl(154, 59%, 51%);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: none;
+
+
+}
+
+.block1 p {
+    margin-top: -15px;
+    font-size: 10px;
+    text-align: center;
+}
+
+span {
+    color: hsl(0, 100%, 74%);
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        margin: 0;
+        padding: 0;
+    }
+body {
+
+
+}
+
+    .info h1 {
+        text-align: center;
+padding: 0;
+margin: 0;
+
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        
+
+    }
+.info p { 
+
+    text-align: center;
+}
+    .info {
+        grid-column: 1/2;
+        grid-row: 1/2;
+       margin-top: 100px;
+       padding: 0;
+text-align: center;
+    }
+
+    .block1 {
+        grid-column: 1/2;
+grid-row: 2/3;
+margin: 0;
+padding: 0;
+    }
+
+    .contact {
+        margin: 0;
+        padding: 0;
+    }
+
+}

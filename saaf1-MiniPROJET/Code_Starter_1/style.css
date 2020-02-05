@@ -1,0 +1,100 @@
+body,html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    width: 1440px;
+    margin: auto;
+    box-sizing: border-box;
+}
+section {
+    background-color: rgb(245, 248, 250);
+    margin: auto;
+    
+    
+}
+.section-1 {
+   text-align: center;
+}
+.section-1 h1,p {
+    color: rgb(219, 216, 212);
+}
+.container{
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 28% 28% 34%;
+    grid-template-rows: 50% 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-gap: 35px;
+    justify-content: space-between;
+
+}
+.colonne1 {
+    box-sizing: border-box;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    box-shadow:5px 10px 40px hsl(229, 6%, 66%);
+    width: 400px;
+    height: 250px;
+}
+
+img {
+    float: right;
+}
+.calc1{
+   
+    margin-top: -25%;
+    box-sizing: border-box ;
+    border-top: 5px solid  hsl(0, 78%, 62%);
+    box-shadow: 5px 10px 40px hsl(229, 6%, 66%);
+    width: 400px;
+    height: 250px;
+    margin-bottom: 5%;
+}
+.calc2{
+ 
+    box-sizing: border-box ;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    box-shadow: 5px 10px 40px hsl(229, 6%, 66%);
+    width: 400px;
+    height: 250px;
+    margin-top: 5%;
+}
+.colonne3{
+    
+    box-sizing: border-box ;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    box-shadow: 5px 10px 40px hsl(229, 6%, 66%);
+    width: 400px;
+    height: 250px;
+}
+.container p,h3 {
+    padding-left: 20px;
+}
+@media (max-width:740px){
+  
+    .container{
+        display: flex;
+        flex-direction: column;     
+           justify-content: space-around;
+           padding-left: 80px;
+           padding-right: 80px;
+        
+
+    }
+    .colonne1{
+        margin-top: -20%;
+    }
+    .colonne2{
+        margin-top: 30%;
+    }
+    .section-1 {
+        display: flex;
+        margin-bottom: 30%;
+        text-align: center;
+        flex-direction: column;
+        text-align: center;
+        padding-right: 750px;
+    }
+}
+
+
+

@@ -17,7 +17,6 @@ width: 100%;
  
     max-width:70%;
     margin: 0 auto;
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
 
@@ -34,6 +33,11 @@ h1 {
   width: 100%;
   margin-top: 50px;
   padding:5%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:center;
+
 
   
 
@@ -44,9 +48,18 @@ h1 {
 
 width: 15%;
 margin-right: 9%;
+transition: width 2s,  height 2s, transform 2s;
+transition-timing-function: ease-out;
+
 
 
   
+}
+
+.img:hover {
+width: 20%;
+transform:  rotate(360deg);
+
 }
 #contact {
   background-color: #ffffff;
@@ -173,9 +186,9 @@ text-align: justify;
 }
 .sectionfooter3  #logo-social {
   float: left;
-  padding-left: 0em;
+  padding-left: 3em;
   display: block;
-  margin-left: auto;
+  margin-right:200px;
   
 
 }
@@ -187,8 +200,15 @@ a {
   display: block;
   width: 100%;
 }
+
 /*flrx*/
 @media screen and (max-width:750px){
+
+
+  .logo {
+    flex-direction: column;
+    align-items: center;
+  }
   #contact{
     display: block;
     
